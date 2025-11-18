@@ -18,6 +18,7 @@ Allow: /*.webp
 # Disallow: /admin/
 # Disallow: /api/
 
-# Sitemap location
+# Sitemap locations
 Sitemap: https://draganddrop.in/sitemap.xml
+Sitemap: https://draganddrop.in/image-sitemap.xml
 
