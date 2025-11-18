@@ -1,0 +1,343 @@
+.splash-screen {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  background: #ffffff;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+  overflow: hidden;
+}
+
+.splash-background {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.splash-gradient-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.08;
+  animation: orbFloat 15s ease-in-out infinite;
+  will-change: transform;
+}
+
+.splash-gradient-orb--1 {
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(255, 107, 53, 0.12) 0%, transparent 70%);
+  top: -100px;
+  left: -100px;
+  animation-delay: 0s;
+}
+
+.splash-gradient-orb--2 {
+  width: 350px;
+  height: 350px;
+  background: radial-gradient(circle, rgba(255, 122, 74, 0.1) 0%, transparent 70%);
+  bottom: -80px;
+  right: -80px;
+  animation-delay: 5s;
+}
+
+.splash-gradient-orb--3 {
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(255, 107, 53, 0.08) 0%, transparent 70%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-delay: 10s;
+}
+
+.splash-grid-pattern {
+  display: none;
+}
+
+@keyframes gridMove {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(50px, 50px);
+  }
+}
+
+@keyframes orbFloat {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0.4;
+  }
+  25% {
+    transform: translate(40px, -40px) scale(1.15);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translate(-30px, 30px) scale(0.95);
+    opacity: 0.35;
+  }
+  75% {
+    transform: translate(20px, 20px) scale(1.05);
+    opacity: 0.45;
+  }
+}
+
+
+.splash-screen.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.splash-screen.hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.splash-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.75rem;
+  animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  z-index: 1;
+  padding: 2rem;
+}
+
+.splash-logo-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.2s both;
+}
+
+.splash-logo-glow {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 107, 53, 0.1) 0%, transparent 70%);
+  filter: blur(30px);
+  animation: logoGlow 4s ease-in-out infinite;
+  z-index: -1;
+}
+
+.splash-logo-container {
+  width: 200px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 24px;
+  position: relative;
+  overflow: visible;
+  margin: 0 auto;
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.08), 0 4px 16px rgba(255, 107, 53, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  animation: logoFloat 4s ease-in-out infinite;
+}
+
+@keyframes logoGlow {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.1);
+  }
+}
+
+.splash-logo-img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.3s ease;
+}
+
+.splash-brand-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  animation: textFadeIn 0.8s ease-out 0.4s both;
+  margin-top: 0;
+}
+
+.splash-brand-text h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  line-height: 1.2;
+  font-family: var(--font-heading, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif);
+}
+
+.brand-name {
+  color: #0f172a;
+  font-weight: 800;
+  position: relative;
+}
+
+.brand-name--drag {
+  animation-delay: 0s;
+}
+
+.brand-name--drop {
+  animation-delay: 0.15s;
+}
+
+
+.brand-separator {
+  color: #FF6B35;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.splash-loader {
+  width: 240px;
+  display: flex;
+  animation: loaderFadeIn 0.8s ease-out 0.6s both;
+  margin-top: 0.5rem;
+}
+
+.loader-track {
+  width: 100%;
+  height: 4px;
+  background: rgba(226, 232, 240, 0.8);
+  border-radius: 999px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.loader-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #FF6B35 0%, #FF7A4A 100%);
+  border-radius: 999px;
+  transition: width 0.1s linear;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(255, 107, 53, 0.3);
+}
+
+.loader-bar-glow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.6),
+    transparent
+  );
+  animation: shimmer 1.5s infinite;
+}
+
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.loader-text {
+  display: none;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes textFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes loaderFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes logoFloat {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-8px) scale(1.02);
+  }
+}
+
+@media (max-width: 768px) {
+  .splash-content {
+    gap: 0.625rem;
+    padding: 1.5rem;
+  }
+
+  .splash-logo-container {
+    width: 160px;
+  }
+
+  .splash-brand-text h1 {
+    font-size: 1.75rem;
+  }
+
+  .splash-brand-text {
+    gap: 0.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .splash-logo-container {
+    width: 140px;
+  }
+
+  .splash-brand-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .splash-content {
+    gap: 0.5rem;
+  }
+}
