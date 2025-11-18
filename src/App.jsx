@@ -10,6 +10,7 @@ import LegalPages from './pages/LegalPages'
 import SplashScreen from './components/SplashScreen'
 import './App.css'
 import GroceryStudio from './pages/GroceryStudio'
+import ImageGallery from './pages/ImageGallery'
 
 function AppContent() {
   const [showSplash, setShowSplash] = useState(false)
@@ -37,6 +38,7 @@ function AppContent() {
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/upcoming-tools" element={<UpcomingTools />} />
         <Route path="/upcoming-tools/grocery-studio" element={<GroceryStudio />} />
+        <Route path="/gallery" element={<ImageGallery />} />
         <Route path="/support/:page" element={<SupportPages />} />
         <Route path="/company/:page" element={<CompanyPages />} />
         <Route path="/legal/:page" element={<LegalPages />} />
