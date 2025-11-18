@@ -68,4 +68,30 @@
     </image:image>
   </url>
 
+  <url>
+    <loc>https://draganddrop.in/gallery</loc>
+    <lastmod>2025-11-15</lastmod>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://draganddrop.in/ddfinal.png</image:loc>
+      <image:caption>Drag & Drop ERP Logo - Business Management Software</image:caption>
+      <image:title>Drag & Drop ERP Logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://draganddrop.in/assets/Dashboard (2)-BDkuk3On.png</image:loc>
+      <image:caption>Drag & Drop ERP Dashboard - Grocery Studio Interface</image:caption>
+      <image:title>Dashboard Interface</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://draganddrop.in/assets/mobile-DvJ9VGtA.jpg</image:loc>
+      <image:caption>Drag & Drop ERP Mobile Dashboard</image:caption>
+      <image:title>Mobile Dashboard</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://draganddrop.in/assets/invoice-CNjEBc6t.png</image:loc>
+      <image:caption>Invoice Management Interface - Grocery Studio</image:caption>
+      <image:title>Invoice Management</image:title>
+    </image:image>
+  </url>
+
 </urlset>
