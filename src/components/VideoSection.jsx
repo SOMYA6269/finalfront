@@ -48,7 +48,7 @@ export default function VideoSection() {
               <div className="video-thumbnail">
                 <img 
                   src={thumbnailUrl} 
-                  alt={`${video.title} - Drag & Drop ERP Video Tutorial`}
+                  alt="Drag & Drop ERP Video Tutorial - See ERP in Action"
                   className="thumbnail-image"
                   loading="lazy"
                 />
