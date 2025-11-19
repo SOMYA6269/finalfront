@@ -468,12 +468,12 @@
 .comparison-enterprise .section-subtitle-enterprise,
 .features-enterprise .section-title-enterprise,
 .features-enterprise .section-subtitle-enterprise {
-  color: #0f172a;
+  color: #ffffff;
 }
 
 .comparison-enterprise .section-subtitle-enterprise,
 .features-enterprise .section-subtitle-enterprise {
-  color: #1E293B;
+  color: #ffffff;
 }
 
 .why-choose-grid-enterprise {
@@ -641,6 +641,11 @@
   line-height: 1.5;
 }
 
+/* Make feature column white in header (dark background) */
+.comparison-header-enterprise .comparison-col-feature {
+  color: #ffffff;
+}
+
 .comparison-col-product {
   display: flex;
   align-items: center;
@@ -691,6 +696,11 @@
     line-height: 1.3;
   }
   
+  /* Ensure white color in header for mobile */
+  .comparison-header-enterprise .comparison-col-feature {
+    color: #ffffff;
+  }
+  
   .comparison-col-product {
     font-size: 0.7rem;
     text-align: center;
@@ -723,6 +733,11 @@
   .comparison-col-feature {
     font-size: 0.7rem;
     line-height: 1.2;
+  }
+  
+  /* Ensure white color in header for small mobile */
+  .comparison-header-enterprise .comparison-col-feature {
+    color: #ffffff;
   }
   
   .comparison-col-product {
