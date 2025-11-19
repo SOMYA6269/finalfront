@@ -2,9 +2,7 @@ import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import './Home.css'
-// Use stable URLs from /public/images/ for SEO
-const dashboardImage = '/images/Dashboard-2.png'
-const mobileImage = '/images/mobile.jpg'
+// All images use absolute paths from /public/images/ for SEO
 import { 
   FaBox, 
   FaFileInvoice, 
@@ -175,7 +173,7 @@ export default function Home() {
                     <div className="laptop-screen-desktop-enterprise">
                       <div className="laptop-screen-content-desktop">
                         <img 
-                          src={dashboardImage} 
+                          src="/images/Dashboard-2.png" 
                           alt="Drag & Drop ERP Dashboard" 
                           className="dashboard-img-enterprise"
                         />
@@ -191,7 +189,7 @@ export default function Home() {
                     <div className="laptop-screen-enterprise">
                       <div className="laptop-screen-content">
                         <img 
-                          src={dashboardImage} 
+                          src="/images/Dashboard-2.png" 
                           alt="Drag & Drop ERP Dashboard" 
                           className="dashboard-img-laptop"
                         />
@@ -290,7 +288,7 @@ export default function Home() {
                   <div className="phone-frame-showcase">
                     <div className="phone-screen-showcase">
                       <img 
-                        src={mobileImage} 
+                        src="/images/mobile.jpg" 
                         alt="Drag & Drop ERP Mobile Dashboard" 
                         className="mobile-screen-image"
                       />
