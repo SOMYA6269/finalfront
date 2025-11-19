@@ -2,47 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
-  <!-- Home Page Images -->
   <url>
     <loc>https://draganddrop.in/</loc>
     <image:image>
       <image:loc>https://draganddrop.in/images/ddfinal.png</image:loc>
-      <image:caption>Drag & Drop ERP Logo - Business Management Software</image:caption>
-      <image:title>Drag & Drop ERP Logo</image:title>
+      <image:caption>Drag &amp; Drop ERP Logo - Business Management Software</image:caption>
+      <image:title>Drag &amp; Drop ERP Logo</image:title>
     </image:image>
     <image:image>
       <image:loc>https://draganddrop.in/images/Dashboard-2.png</image:loc>
-      <image:caption>Drag & Drop ERP Dashboard - Grocery Studio Interface showing inventory management, billing, and analytics features</image:caption>
+      <image:caption>Drag &amp; Drop ERP Dashboard - Grocery Studio Interface showing inventory management, billing, and analytics features</image:caption>
       <image:title>Dashboard Interface</image:title>
     </image:image>
     <image:image>
       <image:loc>https://draganddrop.in/images/mobile.jpg</image:loc>
-      <image:caption>Drag & Drop ERP Mobile Dashboard - Mobile-responsive interface for managing business on the go</image:caption>
+      <image:caption>Drag &amp; Drop ERP Mobile Dashboard - Mobile-responsive interface for managing business on the go</image:caption>
       <image:title>Mobile Dashboard</image:title>
     </image:image>
   </url>
 
-  <!-- Features Page Images -->
   <url>
     <loc>https://draganddrop.in/features</loc>
     <image:image>
       <image:loc>https://draganddrop.in/images/ddfinal.png</image:loc>
-      <image:caption>Drag & Drop ERP Logo - Business Management Software</image:caption>
-      <image:title>Drag & Drop ERP Logo</image:title>
+      <image:caption>Drag &amp; Drop ERP Logo - Business Management Software</image:caption>
+      <image:title>Drag &amp; Drop ERP Logo</image:title>
     </image:image>
   </url>
 
-  <!-- Tools Page Images -->
   <url>
     <loc>https://draganddrop.in/upcoming-tools</loc>
     <image:image>
       <image:loc>https://draganddrop.in/images/ddfinal.png</image:loc>
-      <image:caption>Drag & Drop ERP Logo - Business Management Software</image:caption>
-      <image:title>Drag & Drop ERP Logo</image:title>
+      <image:caption>Drag &amp; Drop ERP Logo - Business Management Software</image:caption>
+      <image:title>Drag &amp; Drop ERP Logo</image:title>
     </image:image>
   </url>
 
-  <!-- Grocery Studio Page Images -->
   <url>
     <loc>https://draganddrop.in/upcoming-tools/grocery-studio</loc>
     <image:image>
@@ -52,37 +48,35 @@
     </image:image>
     <image:image>
       <image:loc>https://draganddrop.in/images/ddfinal.png</image:loc>
-      <image:caption>Drag & Drop ERP Logo - Business Management Software</image:caption>
-      <image:title>Drag & Drop ERP Logo</image:title>
+      <image:caption>Drag &amp; Drop ERP Logo - Business Management Software</image:caption>
+      <image:title>Drag &amp; Drop ERP Logo</image:title>
     </image:image>
   </url>
 
-  <!-- Contact Page Images -->
   <url>
     <loc>https://draganddrop.in/contact</loc>
     <image:image>
       <image:loc>https://draganddrop.in/images/ddfinal.png</image:loc>
-      <image:caption>Drag & Drop ERP Logo - Business Management Software</image:caption>
-      <image:title>Drag & Drop ERP Logo</image:title>
+      <image:caption>Drag &amp; Drop ERP Logo - Business Management Software</image:caption>
+      <image:title>Drag &amp; Drop ERP Logo</image:title>
     </image:image>
   </url>
 
-  <!-- Image Gallery Page -->
   <url>
     <loc>https://draganddrop.in/gallery</loc>
     <image:image>
       <image:loc>https://draganddrop.in/images/ddfinal.png</image:loc>
-      <image:caption>Drag & Drop ERP Logo - Business Management Software</image:caption>
-      <image:title>Drag & Drop ERP Logo</image:title>
+      <image:caption>Drag &amp; Drop ERP Logo - Business Management Software</image:caption>
+      <image:title>Drag &amp; Drop ERP Logo</image:title>
     </image:image>
     <image:image>
       <image:loc>https://draganddrop.in/images/Dashboard-2.png</image:loc>
-      <image:caption>Drag & Drop ERP Dashboard - Grocery Studio Interface showing inventory management, billing, and analytics features</image:caption>
+      <image:caption>Drag &amp; Drop ERP Dashboard - Grocery Studio Interface showing inventory management, billing, and analytics features</image:caption>
       <image:title>Dashboard Interface</image:title>
     </image:image>
     <image:image>
       <image:loc>https://draganddrop.in/images/mobile.jpg</image:loc>
-      <image:caption>Drag & Drop ERP Mobile Dashboard - Mobile-responsive interface for managing business on the go</image:caption>
+      <image:caption>Drag &amp; Drop ERP Mobile Dashboard - Mobile-responsive interface for managing business on the go</image:caption>
       <image:title>Mobile Dashboard</image:title>
     </image:image>
     <image:image>
