@@ -3,14 +3,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import './ImageGallery.css'
 
-// Use stable URLs from /public/images/ for SEO
-const dashboardImage = '/images/Dashboard-2.png'
-const mobileImage = '/images/mobile.jpg'
-const invoiceImage = '/images/invoice.png'
-const homeImage = '/images/home.png'
-const financialImage = '/images/financial.png'
-const staffImage = '/images/staff.png'
-
+// All images use absolute paths from /public/images/ for SEO
 const IMAGES = [
   {
     src: '/images/ddfinal.png',
@@ -20,42 +13,42 @@ const IMAGES = [
     category: 'Branding'
   },
   {
-    src: dashboardImage,
+    src: '/images/Dashboard-2.png',
     alt: 'Drag & Drop ERP Dashboard - Grocery Studio Interface',
     title: 'Dashboard Interface',
     description: 'Main dashboard view showing inventory management, billing, and analytics features',
     category: 'Screenshots'
   },
   {
-    src: mobileImage,
+    src: '/images/mobile.jpg',
     alt: 'Drag & Drop ERP Mobile Dashboard - Mobile App Interface',
     title: 'Mobile Dashboard',
     description: 'Mobile-responsive dashboard for managing business on the go',
     category: 'Screenshots'
   },
   {
-    src: invoiceImage,
+    src: '/images/invoice.png',
     alt: 'Invoice Management Interface - Grocery Studio',
     title: 'Invoice Management',
     description: 'Professional invoice creation and management interface in Grocery Studio',
     category: 'Screenshots'
   },
   {
-    src: homeImage,
+    src: '/images/home.png',
     alt: 'Home Dashboard View - Business Overview',
     title: 'Home Dashboard',
     description: 'Overview dashboard showing business metrics and quick actions',
     category: 'Screenshots'
   },
   {
-    src: financialImage,
+    src: '/images/financial.png',
     alt: 'Financial Reports and Analytics Dashboard',
     title: 'Financial Reports',
     description: 'Comprehensive financial reporting and analytics dashboard',
     category: 'Screenshots'
   },
   {
-    src: staffImage,
+    src: '/images/staff.png',
     alt: 'Staff Management Interface - Employee Dashboard',
     title: 'Staff Management',
     description: 'Staff and employee management interface with role-based access',
