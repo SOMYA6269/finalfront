@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="footer-content">
           <div className="footer-brand">
             <div className="logo-container">
-              <img src="/ddfinal.png" alt="Drag & Drop ERP Logo - Business Management Software" className="footer-logo-img" />
+              <img src="/images/ddfinal.png" alt="Drag & Drop ERP Logo - Business Management Software" className="footer-logo-img" />
               <div className="brand-text">
                 <h3>Drag & Drop</h3>
                 <p>Software Tools</p>
