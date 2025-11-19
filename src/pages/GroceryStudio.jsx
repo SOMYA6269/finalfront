@@ -3,7 +3,8 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import { Link } from 'react-router-dom'
 import dragVideo from '../assets/images/drag.mp4'
-import invoicePreview from '../assets/images/invoice.png'
+// Use stable URL from /public/images/ for SEO
+const invoicePreview = '/images/invoice.png'
 import './GroceryStudio.css'
 import { 
   FaLink, 
