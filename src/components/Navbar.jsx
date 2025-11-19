@@ -70,7 +70,7 @@ export default function Navbar() {
         {/* LEFT: Logo */}
         <Link to="/" className="nav-brand">
           <div className="logo-container">
-            <img src="/ddfinal.png" alt="Drag & Drop ERP Logo - Business Management Software" className="navbar-logo-img" />
+            <img src="/images/ddfinal.png" alt="Drag & Drop ERP Logo - Business Management Software" className="navbar-logo-img" />
             <div className="brand-text">
               <span className="brand-name">Drag & Drop</span>
               <span className="brand-tagline">Software Tools</span>
