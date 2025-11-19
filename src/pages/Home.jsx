@@ -2,8 +2,9 @@ import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import './Home.css'
-import dashboardImage from '../assets/images/Dashboard (2).png'
-import mobileImage from '../assets/images/mobile.jpg'
+// Use stable URLs from /public/images/ for SEO
+const dashboardImage = '/images/Dashboard-2.png'
+const mobileImage = '/images/mobile.jpg'
 import { 
   FaBox, 
   FaFileInvoice, 
