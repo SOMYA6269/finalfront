@@ -1,0 +1,6 @@
+{
+  "routes": {
+    "/sitemap.xml": "/sitemap.xml",
+    "/image-sitemap.xml": "/image-sitemap.xml"
+  }
+}
