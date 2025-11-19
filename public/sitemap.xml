@@ -1,97 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
     <loc>https://draganddrop.in/</loc>
     <lastmod>2025-11-15</lastmod>
     <priority>1.0</priority>
-    <image:image>
-      <image:loc>https://draganddrop.in/images/ddfinal.png</image:loc>
-      <image:caption>Drag &amp; Drop ERP Logo - Business Management Software</image:caption>
-      <image:title>Drag &amp; Drop ERP Logo</image:title>
-    </image:image>
   </url>
 
   <url>
     <loc>https://draganddrop.in/features</loc>
     <lastmod>2025-11-15</lastmod>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://draganddrop.in/images/ddfinal.png</image:loc>
-      <image:caption>Drag &amp; Drop ERP Logo - Business Management Software</image:caption>
-      <image:title>Drag &amp; Drop ERP Logo</image:title>
-    </image:image>
   </url>
 
   <url>
     <loc>https://draganddrop.in/upcoming-tools</loc>
     <lastmod>2025-11-15</lastmod>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://draganddrop.in/images/ddfinal.png</image:loc>
-      <image:caption>Drag &amp; Drop ERP Logo - Business Management Software</image:caption>
-      <image:title>Drag &amp; Drop ERP Logo</image:title>
-    </image:image>
   </url>
 
   <url>
     <loc>https://draganddrop.in/contact</loc>
     <lastmod>2025-11-15</lastmod>
     <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://draganddrop.in/images/ddfinal.png</image:loc>
-      <image:caption>Drag &amp; Drop ERP Logo - Business Management Software</image:caption>
-      <image:title>Drag &amp; Drop ERP Logo</image:title>
-    </image:image>
   </url>
 
   <url>
     <loc>https://draganddrop.in/watch</loc>
     <lastmod>2025-11-15</lastmod>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://draganddrop.in/images/ddfinal.png</image:loc>
-      <image:caption>Drag &amp; Drop ERP Logo - Business Management Software</image:caption>
-      <image:title>Drag &amp; Drop ERP Logo</image:title>
-    </image:image>
   </url>
 
   <url>
     <loc>https://draganddrop.in/grocery-studio</loc>
     <lastmod>2025-11-15</lastmod>
     <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://draganddrop.in/images/invoice.png</image:loc>
-      <image:caption>Invoice workspace inside Grocery Studio - Drag &amp; Drop ERP</image:caption>
-      <image:title>Grocery Studio Invoice Interface</image:title>
-    </image:image>
   </url>
 
   <url>
     <loc>https://draganddrop.in/gallery</loc>
     <lastmod>2025-11-15</lastmod>
     <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://draganddrop.in/images/ddfinal.png</image:loc>
-      <image:caption>Drag &amp; Drop ERP Logo - Business Management Software</image:caption>
-      <image:title>Drag &amp; Drop ERP Logo</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://draganddrop.in/images/Dashboard-2.png</image:loc>
-      <image:caption>Drag &amp; Drop ERP Dashboard - Grocery Studio Interface</image:caption>
-      <image:title>Dashboard Interface</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://draganddrop.in/images/mobile.jpg</image:loc>
-      <image:caption>Drag &amp; Drop ERP Mobile Dashboard</image:caption>
-      <image:title>Mobile Dashboard</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://draganddrop.in/images/invoice.png</image:loc>
-      <image:caption>Invoice Management Interface - Grocery Studio</image:caption>
-      <image:title>Invoice Management</image:title>
-    </image:image>
   </url>
 
 </urlset>
