@@ -57,7 +57,7 @@ export default function SplashScreen() {
         <div className="splash-logo-wrapper">
           <div className="splash-logo-glow"></div>
           <div className="splash-logo-container">
-            <img src="/ddfinal.png" alt="Drag & Drop ERP Logo - Business Management Software" className="splash-logo-img" />
+            <img src="/images/ddfinal.png" alt="Drag & Drop ERP Logo - Business Management Software" className="splash-logo-img" />
           </div>
         </div>
         <div className="splash-brand-text">
