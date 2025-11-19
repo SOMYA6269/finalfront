@@ -2,9 +2,7 @@ import { useState, useEffect } from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import { Link } from 'react-router-dom'
-import dragVideo from '../assets/images/drag.mp4'
-// Use stable URL from /public/images/ for SEO
-const invoicePreview = '/images/invoice.png'
+// All media files use absolute paths from /public/images/ for SEO
 import './GroceryStudio.css'
 import { 
   FaLink, 
@@ -212,7 +210,7 @@ export default function GroceryStudio() {
                       </div>
                       <div className="desktop-video-container-new">
                         <video
-                          src={dragVideo}
+                          src="/images/drag.mp4"
                           autoPlay
                           loop
                           muted
@@ -246,7 +244,7 @@ export default function GroceryStudio() {
                 <div className="mobile-frame-new">
                   <div className="mobile-screen-new">
                     <img
-                      src={invoicePreview}
+                      src="/images/invoice.png"
                       alt="Invoice workspace inside Grocery Studio"
                       className="preview-image-new"
                       loading="lazy"
