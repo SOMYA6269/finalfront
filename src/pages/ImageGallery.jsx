@@ -3,17 +3,17 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import './ImageGallery.css'
 
-// Import all images
-import dashboardImage from '../assets/images/Dashboard (2).png'
-import mobileImage from '../assets/images/mobile.jpg'
-import invoiceImage from '../assets/images/invoice.png'
-import homeImage from '../assets/images/home.png'
-import financialImage from '../assets/images/financial.png'
-import staffImage from '../assets/images/staff.png'
+// Use stable URLs from /public/images/ for SEO
+const dashboardImage = '/images/Dashboard-2.png'
+const mobileImage = '/images/mobile.jpg'
+const invoiceImage = '/images/invoice.png'
+const homeImage = '/images/home.png'
+const financialImage = '/images/financial.png'
+const staffImage = '/images/staff.png'
 
 const IMAGES = [
   {
-    src: '/ddfinal.png',
+    src: '/images/ddfinal.png',
     alt: 'Drag & Drop ERP Logo - Business Management Software',
     title: 'Drag & Drop ERP Logo',
     description: 'Official logo of Drag & Drop ERP - Business Management Software',
