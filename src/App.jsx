@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { Routes, Route } from 'react-router-dom'
+import { Toaster } from 'react-hot-toast'
 import Home from './pages/Home'
 import Features from './pages/Features'
 import Pricing from './pages/Pricing'
@@ -32,6 +33,30 @@ function AppContent() {
   return (
     <>
       {showSplash && <SplashScreen />}
+      <Toaster
+        position="top-right"
+        toastOptions={{
+          duration: 5000,
+          style: {
+            background: '#363636',
+            color: '#fff',
+          },
+          success: {
+            duration: 5000,
+            iconTheme: {
+              primary: '#10b981',
+              secondary: '#fff',
+            },
+          },
+          error: {
+            duration: 7000,
+            iconTheme: {
+              primary: '#ef4444',
+              secondary: '#fff',
+            },
+          },
+        }}
+      />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/features" element={<Features />} />
