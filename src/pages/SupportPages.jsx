@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useParams } from 'react-router-dom'
+import toast from 'react-hot-toast'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import './SupportPages.css'
@@ -138,20 +139,22 @@ function ContactContent() {
     message: '',
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
-  const [submitMessage, setSubmitMessage] = useState('')
-  const [submitError, setSubmitError] = useState('')
 
   const handleSubmit = async (e) => {
     e.preventDefault()
     setIsSubmitting(true)
-    setSubmitError('')
-    setSubmitMessage('')
 
     try {
       const { submitContactForm } = await import('../utils/api')
       const result = await submitContactForm(formData)
-      
-      setSubmitMessage(result.message || 'Your message has been sent successfully!')
+
+      // Show success toast
+      toast.success('Thank you! Your message has been received. We\'ll contact you soon.', {
+        duration: 6000,
+        icon: '📬',
+      })
+
+      // Reset form
       setFormData({
         name: '',
         email: '',
@@ -159,11 +162,13 @@ function ContactContent() {
         reason: '',
         message: '',
       })
-      
-      setTimeout(() => setSubmitMessage(''), 5000)
+
     } catch (error) {
-      setSubmitError(error.message || 'Failed to send message. Please try again.')
-      setTimeout(() => setSubmitError(''), 5000)
+      // Show error toast
+      toast.error(error.message || 'Failed to send message. Please try again.', {
+        duration: 7000,
+        icon: '❌',
+      })
     } finally {
       setIsSubmitting(false)
     }
@@ -267,32 +272,6 @@ function ContactContent() {
                   required
                 ></textarea>
               </div>
-              {submitMessage && (
-                <div style={{
-                  padding: '0.875rem 1rem',
-                  background: 'rgba(16, 185, 129, 0.1)',
-                  border: '1px solid rgba(16, 185, 129, 0.3)',
-                  borderRadius: '8px',
-                  color: '#047857',
-                  fontSize: '0.9rem',
-                  marginBottom: '0.5rem'
-                }}>
-                  {submitMessage}
-                </div>
-              )}
-              {submitError && (
-                <div style={{
-                  padding: '0.875rem 1rem',
-                  background: 'rgba(239, 68, 68, 0.1)',
-                  border: '1px solid rgba(239, 68, 68, 0.3)',
-                  borderRadius: '8px',
-                  color: '#dc2626',
-                  fontSize: '0.9rem',
-                  marginBottom: '0.5rem'
-                }}>
-                  {submitError}
-                </div>
-              )}
               <button 
                 type="submit" 
                 className="btn-submit-new"
